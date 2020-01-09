@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+table {
+	border: 1px;
+	bgcolor: #0C0;
+	
+}
+baza {
+	 width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 0;
+    
+    &:before {
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        content: '';
+             }
+}
+#wrapper {
+	position:absolute;
+	margin-top:-10px;
+	margin-left:0%;
+	font-family: segoe script;
+    src: url(segoesc.ttf);	
+	font-size: 8pt;
+}
+#wrapper ul li {
+	font-size: 11pt;
+}
+#line2{
+	position:fixed;
+	margin-left:0%;
+	width: 1280px;
+	height:20px;
+	background: url(../images/line.jpg);
+	z-index:50;
+}
+#header {
+	position:relative;
+	width: 1280px;
+	margin: 0 auto;
+	height: 245px;
+	background: url(../images/SE3PjCZc2r4.jpg);
+	z-index:100;
+}
+#menu {
+	width: 700px;
+	height: 40px;
+	position: absolute;
+	float: right;
+	margin-left:300px;
+	margin-top: 5px;
+}
+#menu ul li {
+	float:left;
+	margin-left: 70px;
+	padding-bottom: 50px;
+	text-decoration: none;
+}
+#logo {
+	width: 120px;
+	height: 120px;
+	float: left;
+	background: #0C0;
+	margin: 10px;
+}
+#katavas {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	margin-left:200px;
+	margin-top: 100px;
+	font-size: 20pt;
+}
+#line{
+	position:relative;
+	margin: 0 auto;
+	width: 1280px;
+	height:20px;
+	background: url(../images/line.jpg);
+	z-index:75;
+}	
+
+
+#content {	
+	position:relative;
+	width: 1280px;
+	margin: 0 auto;
+	height: 800px;
+	margin-top:-20px;
+	background: linear-gradient(to top, #fefcea, #f1da36);
+	z-index:1;
+}
+
+#pergamment {
+	position:relative;
+	height: 800px;
+	width: 700px;	
+	margin: 0 auto;
+	background: url(../images/Pergament-obrez.png);
+}
+
+#footer {
+position:relative;
+width: 1280px;
+margin: 0 auto;
+height: 100px;
+background: #AF8700;
+}
+#upup {
+width: 100px;
+height: 100px;
+
+background: url(../images/up.jpg);
+}
+#nadp {
+width: 75%;
+height: 40%;
+font-size: 26px;
+}
+#lol{
+width: 25%;
+float: left;
+}
+#vkcom{
+width: 25%;
+
+float: left;
+}
+#Email{
+width: 25%;
+
+float: left;
+}
+#telephone{
+width: 25%;
+float: left;
+}
+#kitten{ 
+	position:relative;
+    height: 800px;
+	width: 700px;	
+	margin: 0 auto;
+	position:relative;
+	z-index: 400;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight {
+	position:relative;
+	width:120px;
+	height:170px;
+	z-index:450;
+	float:left;
+	margin-left:45px;
+	margin-top:20px;
+	
+}
+#one_kar {
+	position:relative;
+	width: 120px;
+	height:113px;
+	background:url(../images/Katalog/1/1.jpg);
+}
+#text { 
+    min-height: 800px;
+	width: 700px;	
+	margin: 0 auto;
+	position:relative;
+	font-size: 15pt;
+	text-align: center;
+}
+
+#zakaz1 {
+    height: 150px;
+	width: 700px;	
+	margin: 0 auto;
+	position:relative;
+	font-size: 15pt;
+	text-align: center;
+}
+#check{
+	font-size: 14pt;
+}
+#info_zakaz{
+	height: 400px;
+	width: 700px;	
+	margin: 0 auto;
+	position:relative;
+	font-size: 14pt;
+	text-align: center;
+}
+#submit{
+background:#AA0
+}
+#helllo{
+    margin-top:50px;
+    text-align:center;
+}
+#login{
+    width:75%;
+    text-align:right;
+}
+#lolich{
+    width: 100%;
+    float: left;
+    font-size:32px;
+}
+#lolq{
+    text-align:center;
+}
+#lolich1{
+width:100%;
+float: left;
+font-size:24px;
+text-align:center;
+}
+
